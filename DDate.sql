@@ -23,8 +23,8 @@ BEGIN
             DSid, SalesDate, Day, Week, WeekInYear, Month, MonthInYear,
             MonthName, Quarter, QuarterInYear, Year)
         VALUES (
-            i, startdate, to_char(startdate, 'DD'), to_char(startdate, 'YYYYWW'),
-            to_char(startdate, 'WW'), to_char(startdate, 'YYYYMM'),
+            i, startdate, to_char(startdate, 'DD'), to_char(startdate, 'YYYYIW'),
+            to_char(startdate, 'IW'), to_char(startdate, 'YYYYMM'),
             to_char(startdate, 'MM'), to_char(startdate, 'Month'),
             to_char(startdate, 'YYYYQ'), to_char(startdate, 'Q'),
             to_char(startdate, 'YYYY')
