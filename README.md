@@ -1,3 +1,3 @@
 # dw
 
-Übungen zur Vorlesung Data Warehousing.
+Exercises for the data warehouse course at OTH.
